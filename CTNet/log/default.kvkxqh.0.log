@@ -1,0 +1,16 @@
+C:\Users\cz\anaconda3\envs\paddle\lib\site-packages\setuptools\depends.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Traceback (most recent call last):
+  File "train.py", line 19, in <module>
+    from paddleseg.cvlibs import manager, Config
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\__init__.py", line 15, in <module>
+    from . import models, datasets, transforms
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\models\__init__.py", line 1, in <module>
+    from .ctnet import *
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\models\ctnet.py", line 19, in <module>
+    from paddleseg import utils
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\utils\__init__.py", line 19, in <module>
+    from .utils import *
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\utils\utils.py", line 16, in <module>
+    import filelock
+ModuleNotFoundError: No module named 'filelock'

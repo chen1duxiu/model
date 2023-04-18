@@ -1,0 +1,18 @@
+C:\Users\cz\anaconda3\envs\paddle\lib\site-packages\setuptools\depends.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Traceback (most recent call last):
+  File "train.py", line 19, in <module>
+    from paddleseg.cvlibs import manager, Config
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\__init__.py", line 15, in <module>
+    from . import models, datasets, transforms
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\models\__init__.py", line 1, in <module>
+    from .ctnet import *
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\models\ctnet.py", line 19, in <module>
+    from paddleseg import utils
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\utils\__init__.py", line 18, in <module>
+    from .env import seg_env, get_sys_env
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\utils\env\__init__.py", line 16, in <module>
+    from .sys_env import get_sys_env
+  File "C:\Users\cz\PycharmProjects\CODE\CTNet-main\paddleseg\utils\env\sys_env.py", line 21, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
