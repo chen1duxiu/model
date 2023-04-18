@@ -19,7 +19,7 @@ import shutil
 import numpy as np
 import paddle
 import paddle.nn.functional as F
-from visualdl import LogWriter
+# from visualdl import LogWriter
 
 from paddleseg.utils import TimeAverager, calculate_eta, resume, logger
 from paddleseg.core.val import evaluate
